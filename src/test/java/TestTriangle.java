@@ -63,6 +63,7 @@ public class TestTriangle {
                 Arguments.of(0, 0, 0, false), // Нулевые стороны
                 Arguments.of(-1, -1, 2, false), // Отрицательные стороны
                 Arguments.of(Integer.MAX_VALUE, Integer.MAX_VALUE, 1, true), // Равнобедренный треугольник с максимальными значениями
+                Arguments.of(2, 2, 1, true), // Равнобедренный треугольник с минимальными значениями
                 Arguments.of(1, 1, 2, false) // Не треугольник
         );
     }
