@@ -39,7 +39,8 @@ public class TestTriangle {
                 Arguments.of(-1, 2, 3, false), // Отрицательные стороны
                 Arguments.of(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, true), // Максимальные значения
                 Arguments.of(Integer.MAX_VALUE, 1, 1, false), // Переполнение
-                Arguments.of(1, 1, 1, true) // Минимальные положительные значения
+                Arguments.of(1, 1, 1, true), // Минимальные положительные значения
+                Arguments.of(3, 2, 4, true) // Разносторонний треугольник с минимальными значениями
         );
     }
 
